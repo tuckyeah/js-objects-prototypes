@@ -44,7 +44,7 @@ We made a nice `Hero` constructor to take care of the attributes .
 const Hero = function(name, alias, power) {
   this.name = name;
   this.alias = alias;
-  this.power = power;
+  this._power = power;
 };
 ```
 
